@@ -1,10 +1,22 @@
 # Frogger
 
-A tool to generate text exports of your organizations Glassfrog roles, to allow easy archival/backup.
+An elixir tool to generate text exports of your organizations Glassfrog roles, to allow easy archival/backup.
 
 ## Installation
 
-Clone the repo, edit config/config.exs and supply your Glassfrog API key
+Make sure you've installed Elixir: https://elixir-lang.org/install.html
+
+Clone this repo
+
+```
+git clone https://github.com/PrecisionNutrition/frogger.git
+```
+
+edit config/config.exs and supply your Glassfrog API key
+
+```
+config :frogger, glassfrog_api_key: "YOUR_CODE_HERE"
+```
 
 Download and compile the dependencies:
 
